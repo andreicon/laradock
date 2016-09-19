@@ -1,6 +1,4 @@
-FROM mysql:latest
-
-MAINTAINER Mahmoud Zalt <mahmoud@zalt.me>
+FROM mysql:5.7.15
 
 ADD my.cnf /etc/mysql/conf.d/my.cnf
 
